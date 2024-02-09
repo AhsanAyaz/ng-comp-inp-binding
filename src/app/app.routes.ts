@@ -10,7 +10,7 @@ export const routes: Routes = [
     },
   },
   {
-    path: 'products/:id',
+    path: 'products/:productId',
     pathMatch: 'full',
     loadComponent: async () => {
       const m = await import('./product/product.component');
